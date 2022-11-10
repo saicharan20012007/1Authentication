@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+.login-form-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  align-items: center;
+  height: 100vh;
+  font-family: Roboto;
+}
+.left-container {
+  padding: 20px;
+}
+.login-image {
+  height: 400px;
+}
+.right-container {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  padding: 10px;
+  height: 450px;
+  border-radius: 10px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.web-logo {
+  height: 50px;
+  align-self: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 30px;
+}
+label {
+  color: #475569;
+  font-weight: 700;
+  margin-bottom: 7px;
+  margin-top: 30px;
+  text-align: left;
+  margin-left: 30px;
+}
+.input-element {
+  height: 40px;
+  background-color: #e6f6ff;
+  border-width: 0px;
+  width: 400px;
+  font-size: 17px;
+  padding: 5px;
+  border-radius: 4px;
+  font-weight: 500;
+  padding-left: 20px;
+  align-self: center;
+  outline: none;
+}
+.btn {
+  cursor: pointer;
+  outline: none;
+  padding: 7px;
+  border-radius: 7px;
+  border-width: 0px;
+  margin: 15px;
+  margin-top: 20px;
+  background-color: #0b69ff;
+  font-size: 20px;
+  margin-left: 30px;
+  color: white;
+  width: 400px;
+  margin-bottom: 1px;
+}
+#warning {
+  color: #ff0b37;
+  margin-left: 30px;
+  margin-top: 0px;
+}
